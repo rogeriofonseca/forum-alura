@@ -19,6 +19,9 @@
 *.tar.gz
 *.rar
 *.project
+*.DS_Store
+*.classpath
+*.settings
 
 # Folders
 target/
