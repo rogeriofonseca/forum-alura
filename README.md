@@ -10,3 +10,9 @@
 
 **To start the project. Run:** <p>
 `mvn spring-boot:run`
+
+After running the above command, the application will be available at: `http://localhost:8080`
+
+## Endpoints
+**List Topics:**<p>
+`http://localhost:8080/topicos`
