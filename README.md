@@ -8,5 +8,5 @@
 **Run the command to compile:** <p>
 `mvn clean install`
 
-**To start the project. Run: ** <p>
+**To start the project. Run:** <p>
 `mvn spring-boot:run`
