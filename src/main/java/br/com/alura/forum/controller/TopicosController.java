@@ -9,15 +9,17 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import br.com.alura.forum.modelo.Curso;
 import br.com.alura.forum.modelo.Topico;
+import br.com.alura.forum.controller.dto.TopicoDTO;
 
 @Controller
 @ResponseBody
 public class TopicosController {
 
     @RequestMapping("/topicos")
-    public List<Topico> lista() {
+    public List<TopicoDTO> lista() {
         Topico topico = new Topico("Duvida", "Duvida com Spring", new Curso("Spring", "Programação"));
+        TopicoDTO topicoDTO = new TopicoDTO(topico);
 
-        return Arrays.asList(topico, topico, topico);
+        return Arrays.asList(topicoDTO, topicoDTO, topicoDTO);
     }
 }
