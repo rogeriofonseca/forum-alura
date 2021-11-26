@@ -23,3 +23,10 @@ After running the above command, the application will be available at: `http://l
 |![topicos_request](https://user-images.githubusercontent.com/1026153/143613392-80e49fb8-4efd-4c7c-b971-bdf82f190e60.png)|
 |:--:|
 | <b>Result of the request output in the browser.</b>|
+
+  
+## Adding H2 Database dependency and Console Browser 
+  :link:[Commit #3f7ac98e5c](https://github.com/rogeriofonseca/forum-alura/commit/3f7ac98e5c88a79f8304d71b47c560b476ea5d4a)
+|![H2_Console](https://user-images.githubusercontent.com/1026153/143659243-bdb8c45d-95f1-4e53-b578-9bf2127fcc41.png)|
+|:--:|  
+| <b>H2 database interface showing tables in a column on the left of the screen.</b>|
