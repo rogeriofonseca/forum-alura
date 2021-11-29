@@ -1,6 +1,8 @@
 package br.com.alura.forum.controller.dto;
 
 import java.time.LocalDateTime;
+import java.util.List;
+import java.util.stream.Collectors;
 
 import br.com.alura.forum.modelo.Topico;
 
@@ -32,5 +34,9 @@ public class TopicoDTO {
 
     public LocalDateTime getDataCriacao() {
         return this.dataCriacao;
+    }
+
+    public static List<TopicoDTO> converter(List<Topico> topicos) {
+        return topicos.stream().map(TopicoDTO::new).collect(Collectors.toList());
     }
 }
