@@ -52,3 +52,8 @@ After running the above command, the application will be available at: `http://l
 The data located in the following path will be loaded at startup.
 
 **Initial data structure:** [src/main/resources/data.sql](https://github.com/rogeriofonseca/forum-alura/blob/main/src/main/resources/data.sql) :page_facing_up:
+
+### Filter using Spring Data
+
+To search topics using the filter, you must enter the parameter in the URL
+`http://localhost:8080/topicos?param=Spring+Boot`
