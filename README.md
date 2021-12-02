@@ -27,12 +27,13 @@ After running the above command, the application will be available at: `http://l
 
 ## `Endpoints`
 **List Topics:**<p>
-**Link:** :link: `http://localhost:8080/topicos`<p>
+**Link:** :link: `http://localhost:8080/topicos` **Method GET**<p>
 | ![topicos_request](https://user-images.githubusercontent.com/1026153/143613392-80e49fb8-4efd-4c7c-b971-bdf82f190e60.png)|
 |:--:|
 | <b>Result of the request output in the browser.</b>|
 
-  
+**Link:** :link: `http://localhost:8080/topicos/{ID}` **Method POST**<p>
+
 ## `Adding H2 Database dependency and Console Browser`
 **Connection Settings:** :game_die:
 
