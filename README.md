@@ -26,13 +26,29 @@ This project is an example of implementing a Rest API using Spring Boot followin
 After running the above command, the application will be available at: `http://localhost:8080`
 
 ## `Endpoints`
-**List Topics:**<p>
+### **List Topics:**<p>
 **Link:** :link: `http://localhost:8080/topicos` **Method GET**<p>
 | ![topicos_request](https://user-images.githubusercontent.com/1026153/143613392-80e49fb8-4efd-4c7c-b971-bdf82f190e60.png)|
 |:--:|
 | <b>Result of the request output in the browser.</b>|
 
 **Link:** :link: `http://localhost:8080/topicos/{ID}` **Method POST**<p>
+  If you want to add a new record to try the endpoint, you can run the following CURL command in the terminal. And that will create a new record.
+```
+  curl -X POST \
+  http://localhost:8080/topicos \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -d '{
+    "titulo": "Question About Spring Validation",
+    "mensagem": "Currently, should I add a new dependency for this to work?",
+    "nomeCurso": "Spring Boot"
+}'
+```
+Or it's also possible through postman:
+|![postman_topicos_post_cadastrar](https://user-images.githubusercontent.com/1026153/144537417-3a8a81a8-fa61-44fb-b64e-d59149583ac4.png) |
+|:--:|  
+| <b>Screenshot with the request made through postman.</b> |
 
 ## `Adding H2 Database dependency and Console Browser`
 **Connection Settings:** :game_die:
