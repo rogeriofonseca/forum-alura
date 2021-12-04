@@ -27,10 +27,13 @@ After running the above command, the application will be available at: `http://l
 
 ## `Endpoints`
 ### **List Topics:**<p>
-**Link:** :link: `http://localhost:8080/topicos` **Method GET**<p>
-| ![topicos_request](https://user-images.githubusercontent.com/1026153/143613392-80e49fb8-4efd-4c7c-b971-bdf82f190e60.png)|
-|:--:|
-| <b>Result of the request output in the browser.</b>|
+**Link:** :link: `http://localhost:8080/topicos?pagina=0&itensPorPagina=2` **Method GET**<p>
+<details>
+<summary>Postman Screenshot</summary>
+  |![topicos_request](https://user-images.githubusercontent.com/1026153/144690502-2a3326bd-9050-4f9f-800e-e9e0a641209d.png)|
+  |:--:|
+  | <b>Postman Screeshot of request result</b>|
+</details>
 
 **Link:** :link: `http://localhost:8080/topicos/{ID}` **Method POST**<p>
   If you want to add a new record to try the endpoint, you can run the following CURL command in the terminal. And that will create a new record.
