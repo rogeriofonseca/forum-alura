@@ -27,17 +27,15 @@ After running the above command, the application will be available at: `http://l
 
 ## `Endpoints`
 ### **List Topics:**<p>
-**Link:** :link: `http://localhost:8080/topicos?pagina=0&itensPorPagina=2` **Method GET**<p>
+**Link:** :link: `http://localhost:8080/topicos?page=0&size=2&sort=id,asc` **Method GET**<p>
 
 <details>
 <summary>Postman Screenshot *[Click Here!]* :point_left: &nbsp; :framed_picture:</summary>
   
-  |![topicos_request](https://user-images.githubusercontent.com/1026153/144691498-14579925-bf5a-4303-976b-4d36a0bf7eb9.png)|
+  |![Screenshot_03_12_21_23_00](https://user-images.githubusercontent.com/1026153/144692974-19309201-1fbb-43da-b7d1-c38f702a5582.png)|
   |:--:|
   | <b>Postman Screenshot with Request Result</b>|
 </details>
-
-
 
 
 **Link:** :link: `http://localhost:8080/topicos/{ID}` **Method POST**<p>
