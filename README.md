@@ -6,6 +6,7 @@ This project is an example of implementing a Rest API using Spring Boot followin
 *   [`How to use?`](#how-to-use)
 *   [`Endpoints`](#endpoints)
 *   [`Adding H2 Database dependency and Console Browser`](#adding-h2-database-dependency-and-console-browser)
+*   [`Commits Log`](commits-history)
 
 ### `Requirements`:
 - [**Maven**](https://maven.apache.org/install.html) :gear:
@@ -79,6 +80,17 @@ The data located in the following path will be loaded at startup.
 
 ## Filter using Spring Data
 
-:link:[Commit ##07c7d303a4](https://github.com/rogeriofonseca/forum-alura/blob/07c7d303a4b784cbdca83aad5e0da86f2c14df75/src/main/java/br/com/alura/forum/controller/TopicosController.java#L22)<br>
 To search topics using the filter, you must enter the parameter in the URL:
 [http://localhost:8080/topicos?param=Spring+Boot](http://localhost:8080/topicos?param=Spring+Boot)
+
+
+## :hourglass_flowing_sand: `Commits History`
+* [H2 Database Settings](https://github.com/rogeriofonseca/forum-alura/commit/3f7ac98e5c88a79f8304d71b47c560b476ea5d4a)
+* [Data Spring Settings](https://github.com/rogeriofonseca/forum-alura/commit/e1cc0a9db84477b53065cdb2bfac54433dda694a)
+* [Filter using Spring Data](https://github.com/rogeriofonseca/forum-alura/commit/07c7d303a4b784cbdca83aad5e0da86f2c14df75)
+* [Bean Validations](https://github.com/rogeriofonseca/forum-alura/commit/496d6948724172c06126ee96cd764351ad807fe2)
+* [Pagination Feature](https://github.com/rogeriofonseca/forum-alura/commit/2231ef2b34eea9549a4ffa04a7a12d516ac531f1)
+* [Cache Feature](https://github.com/rogeriofonseca/forum-alura/commit/48934f6f282ce331825290611511f0c7aed20c52)
+* [Session Authentication](https://github.com/rogeriofonseca/forum-alura/commit/2fb577a64c1309edaf653c92406319f0047451d5)
+* [Token Authentication](https://github.com/rogeriofonseca/forum-alura/commit/31965d0a5bebcfc218cbf22ec1e104aa6c4bc7c2)
+* [Rules Settings](https://github.com/rogeriofonseca/forum-alura/commit/ccdca1dcb6202e7db0c12cc28bb8542f2164d427)
