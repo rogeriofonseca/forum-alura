@@ -7,6 +7,7 @@ This project is an example of implementing a Rest API using Spring Boot followin
 *   [`Endpoints`](#endpoints)
 *   [`Adding H2 Database dependency and Console Browser`](#adding-h2-database-dependency-and-console-browser)
 *   [`Commits Log`](commits-history)
+*   [`Swagger`](swagger)
 
 ### `Requirements`:
 - [**Maven**](https://maven.apache.org/install.html) :gear:
@@ -83,6 +84,33 @@ The data located in the following path will be loaded at startup.
 To search topics using the filter, you must enter the parameter in the URL:
 [http://localhost:8080/topicos?param=Spring+Boot](http://localhost:8080/topicos?param=Spring+Boot)
 
+## Swagger
+
+The URL to access the Swagger is:
+[http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+
+First, you must authenticate with a user, through endpoint `/auth` using for example:
+```json
+{
+  "email": "aluno@email.com",
+  "senha": "123456"
+}
+```
+
+There are two credentials available:<br>
+```javascript
+  login: aluno@email.com
+  password: 123456
+```
+```javascript
+login: moderador@email.com
+password: 123456
+```
+
+
+|![swagger](https://user-images.githubusercontent.com/1026153/159200093-ceef48ba-7be8-4ec8-b568-4166950fe615.png) |
+|:--:|  
+| <b>Swagger's screenshot.</b> |
 
 ## :hourglass_flowing_sand: `Commits History`
 * [H2 Database Settings](https://github.com/rogeriofonseca/forum-alura/commit/3f7ac98e5c88a79f8304d71b47c560b476ea5d4a)
